@@ -1,4 +1,4 @@
-const { generateText, createElement, validateInput } = require('./util');
+const { generateText, createElement, validateInput, checkAndGenerate } = require('./util');
 
 const initApp = () => {
   // Initializes the app, registers the button click listener

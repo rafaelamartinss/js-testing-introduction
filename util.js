@@ -3,7 +3,7 @@ const generateText = (name, age) => {
   return `${name} (${age} years old)`;
 };
 
-const createElement = (type, text, className) => {
+exports.createElement = (type, text, className) => {
   // Creates a new HTML element and returns it
   const newElement = document.createElement(type);
   newElement.classList.add(className);
